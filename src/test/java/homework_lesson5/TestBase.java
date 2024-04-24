@@ -19,13 +19,10 @@ public class TestBase {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
-        //implicit waiting's
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-
         driver.navigate().to("https://demowebshop.tricentis.com/");
     }
-
     @AfterSuite
     public void tearDown() {
         driver.quit();

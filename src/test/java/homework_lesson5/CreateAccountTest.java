@@ -6,56 +6,54 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CreateAccountTest extends TestBase {
-
 @Test
-public void positiveLoginTest() {
+public void positiveLoginTest() throws InterruptedException {
+    // click in login btn by //a[@href='/register']
+    driver.findElement(By.xpath("//a[@href='/register']")).click();
 
-    //  click on Register btn by: //a[@class='ico-register']
-    driver.findElement(By.xpath("//a[@class='ico-register']")).click();
+    Thread.sleep(3000);
 
-    // fill first name by: //input[@id='FirstName']
-    WebElement inputFirstName =
-            driver.findElement(By.xpath("//input[@id='FirstName']"));
+    // fill First name by //input[@name='FirstName']
+    WebElement inputFirstName = driver.findElement(By.xpath("//input[@name='FirstName']"));
     inputFirstName.click();
     inputFirstName.clear();
     inputFirstName.sendKeys("Andrei");
 
-    // fill last name by: //input[@id='LastName']
-    WebElement inputLastName =
-            driver.findElement(By.xpath("//input[@id='LastName']"));
+    // fill Last name by //input[@name='LastName']
+    WebElement inputLastName = driver.findElement(By.xpath("//input[@name='LastName']"));
     inputLastName.click();
     inputLastName.clear();
     inputLastName.sendKeys("Smirnov");
 
-    // fill email by: //input[@id='Email']
-    WebElement inputEmail =
-            driver.findElement(By.xpath("//input[@id='Email']"));
+    // fill email by //input[@name='Email']
+    WebElement inputEmail = driver.findElement(By.xpath("//input[@name='Email']"));
     inputEmail.click();
     inputEmail.clear();
     inputEmail.sendKeys("asmirnoff.74@mail.ru");
 
-    // fill password by: //input[@id='Password']
-    WebElement inputPassword =
-            driver.findElement(By.xpath("//input[@id='Password']"));
+    // fill password by //input[@name='Password']
+    WebElement inputPassword = driver.findElement(By.xpath("//input[@name='Password']"));
     inputPassword.click();
     inputPassword.clear();
     inputPassword.sendKeys("qwertY74!");
 
-    // confirm password: //input[@id='ConfirmPassword']
-    WebElement inputConfirmPassword =
-            driver.findElement(By.xpath("//input[@id='ConfirmPassword']"));
+    // fill Confirm Password by //input[@name='ConfirmPassword']
+    WebElement inputConfirmPassword = driver.findElement(By.xpath("//input[@name='ConfirmPassword']"));
     inputConfirmPassword.click();
     inputConfirmPassword.clear();
     inputConfirmPassword.sendKeys("qwertY74!");
 
-    // click register btn: //input[@id='register-button']
-    driver.findElement(By.xpath("//input[@id='register-button']"))
-            .click();
+    //click on Register btn by //input[@name='register-button']
+    driver.findElement(By.xpath("//input[@name='register-button']")).click();
 
-    WebElement registerElement =
-            driver.findElement(By.xpath("//h1"));
-    String actualResult = registerElement.getText().trim();
-    Assert.assertEquals(actualResult, "Register");
+
+    // validation by registered customer information //a[@href='/customer/info']
+    // text: asmirnoff.74@mail.ru
+    Assert.assertEquals(
+            driver.findElement(
+                            By.xpath("//a[@href='/customer/info']"))
+                    .getText().trim(),
+            "asmirnoff.74@mail.ru");
+
 }
-
 }
