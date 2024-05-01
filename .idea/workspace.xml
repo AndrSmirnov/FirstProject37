@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4cc4d806-9f45-4ce3-997d-758899d5f78e" name="Changes" comment="HomeWork6">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworksBeforeProject/lesson4/ByCssSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworksBeforeProject/lesson4/ByXPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworksBeforeProject/lesson4/Homework_Lesson3_FindBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworksBeforeProject/lesson4/LocatorsCSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworksBeforeProject/lesson4/LocatorsExperiments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworksBeforeProject/lesson4/LocatorsXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworksBeforeProject/lesson4/StartProjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levelone/AddItemToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levelone/CreateAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levelone/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoWebShop/config/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoWebShop/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoWebShop/helpers/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoWebShop/helpers/ItemHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoWebShop/helpers/UserHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoWebShop/tests/AddItemToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoWebShop/tests/CreateAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoWebShop/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/DataProviders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/contact.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testadditem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testnewuser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_lesson4/Homework3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_lesson5/AddItemToCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_lesson5/CreateAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_lesson5/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LocatorsExperiments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/StartProjectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestClass.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FirstProject37" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2fBbwsc5tYSRFwUTU4LbpJMK8OJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Tools/projects37/FirstProject37/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Tools\projects37\FirstProject37\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Tools\projects37\FirstProject37\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.levelone">
+    <configuration name="CreateAccountTest.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject37.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="levelone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="levelone" />
+      <option name="MAIN_CLASS_NAME" value="levelone.CreateAccountTest" />
+      <option name="METHOD_NAME" value="positiveLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateAccountTest.positiveRegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject37.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.DemoWebShop.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.DemoWebShop.tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DemoWebShop.tests.CreateAccountTest" />
+      <option name="METHOD_NAME" value="positiveRegistrationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeworksBeforeProject.lesson4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject37.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworksBeforeProject.lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeworksBeforeProject.lesson4" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="levelone" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject37.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="levelone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="levelone" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests.DemoWebShop.tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject37.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.DemoWebShop.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.DemoWebShop.tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.levelone" />
+        <item itemvalue="TestNG.HomeworksBeforeProject.lesson4" />
+        <item itemvalue="TestNG.tests.DemoWebShop.tests" />
+        <item itemvalue="TestNG.CreateAccountTest.positiveRegistrationTest" />
+        <item itemvalue="TestNG.CreateAccountTest.positiveLoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cc4d806-9f45-4ce3-997d-758899d5f78e" name="Changes" comment="" />
+      <created>1713277668586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713277668586</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1713279126658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713279126658</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HW3">
+      <created>1713511490072</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713511490072</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lesson2">
+      <created>1713511823307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713511823307</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lesson3">
+      <created>1713731215509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713731215509</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HomeWork5">
+      <created>1713812247145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713812247145</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HomeWork6">
+      <created>1713937485732</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713937485732</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <MESSAGE value="HW3" />
+    <MESSAGE value="Lesson2" />
+    <MESSAGE value="Lesson3" />
+    <MESSAGE value="HomeWork5" />
+    <MESSAGE value="HomeWork6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/DemoWebShop/helpers/ItemHelper.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

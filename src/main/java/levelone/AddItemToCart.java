@@ -1,5 +1,4 @@
-package homework_lesson5;
-
+package levelone;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -8,8 +7,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class AddItemToCart extends TestBase {
+
     @BeforeClass
-    public void preconditions() {
+    public void preconditions(){
         // click in login  btn by //a[@href='/login']
         driver.findElement(By.xpath("//a[@href='/login']")).click();
 
@@ -38,14 +38,14 @@ public class AddItemToCart extends TestBase {
     }
 
     @Test
-    public void positiveAddItemToCartTest() {
+    public void positiveAddItemToCartTest () {
         //click on add cart btn for the 2nd item
         driver.findElement(By.xpath("//input[contains(@onclick, 'catalog/31/1/1')]")).click();
         //click on Shopping cart link
         driver.findElement(By.xpath("//span[text()='Shopping cart']")).click();
 
         // validation by item information added in a cart //a[@href='/customer/info']
-        // text: nata@gmail.com
+
         Assert.assertEquals(
                 driver.findElement(
                                 By.xpath("//a[@class='product-name']"))

@@ -1,5 +1,4 @@
-package tests;
-
+package HomeworksBeforeProject.lesson4;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -12,45 +11,40 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
-public class TestClass {
+public class Homework_Lesson3_FindBy {
 
-    WebDriver driver;
     @Test
-    public void setUp() {
+    public void testLocators1() {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--lang=en");
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver(chromeOptions);
 
         driver.manage().window().maximize();
+
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 
         driver.navigate().to("https://demowebshop.tricentis.com/");
 
+        //By name
+        WebElement elementName =
+                driver.findElement(By.name("NewsletterEmail"));
+        System.out.println(elementName.getAttribute("name"));
 
+        //By tagName
+        WebElement elementByTagName = driver.findElement(By.tagName("form"));
+        System.out.println(elementByTagName.getAttribute("action"));
 
+        //By class
+        WebElement elementByClass = driver.findElement(By.className("footer-disclaimer"));
+        System.out.println(elementByClass.getText());
 
-        List<WebElement> elements = driver.findElements(By.tagName("a"));
-        System.out.println(elements.size());
+        List<WebElement> listByTag = driver.findElements(By.tagName("span"));
+        WebElement xElement = listByTag.get(10);
+        System.out.println(xElement.getText());
 
-
-
-
-        //id
-        WebElement element = driver.findElement(By.id("root"));
-        System.out.println(element.getText());
-
-        //className
-
-        WebElement element1 = driver.findElement(By.className("login_login__3EHKB"));
-        System.out.println(element1.getText());
-
-        //name
-
-        WebElement element2 = driver.findElement(By.name("email"));
 
         driver.quit();
     }
-
 }

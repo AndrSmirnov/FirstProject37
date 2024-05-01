@@ -1,4 +1,4 @@
-package homework_lesson5;
+package levelone;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,10 +19,13 @@ public class TestBase {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
+        //implicit waiting's
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+
         driver.navigate().to("https://demowebshop.tricentis.com/");
     }
+
     @AfterSuite
     public void tearDown() {
         driver.quit();
